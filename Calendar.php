@@ -136,6 +136,12 @@ class Calendar extends BaseCalendar
             $sql->execute($set1);
       return true;
     }
+
+    public function get_error()
+    {
+
+    }
+    
     public function update_del($id)
     {
             $set1=
@@ -159,6 +165,8 @@ class Calendar extends BaseCalendar
         ];
 
     }
+
+
     public function make_admin($method)
     {
       $array=[];
